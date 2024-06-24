@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+    <!--
+1. inline style
+    =>just put style in the attributes itself in the tag 
+<label style ="color: red">
+2. internal style  
+    => Put style in the head tag
+<style>
+label {
+  color: red;
+}
+</style>
+3. Exrernal style
+    =>put style in the external file 
+<link rel = "stylesheet" href="index.css">
+-->
+  </head>
+  <body>
+    <form>
+      <label class="label">Name</label>
+      <input placeholder="enter your name " required />
+
+      <label class="label"> Email</label>
+      <input type="email" placeholder="enter your email" required />
+
+      <label class="label"> password</label>
+      <input type=" password" placeholder="enter your password" required />
+
+      <label class="label"> Date</label>
+      <input type="date" placeholder="enter date" required />
+
+      <label class="label">phone</label>
+      <input type="number" required />
+
+      <label class="label"> Telephone </label>
+      <input type="tel" required />
+
+      <label> File </label>
+      <input type="file" accept="image/png" required />
+
+      <hr />
+
+      <labe> number of cups</labe>
+      <input type="range" min="4 " max="8" value="5" />
+
+      <label> Gender</label>
+      <input type="radio" value="male" name="gender" /> <label> Male</label>
+      <input type="radio" value="female" name="gender" /> <label> Female</label>
+
+      <label> choose best driks</label>
+      <input type="checkbox" value="coke" name="drink" /> <label> coke</label>
+      <input type="checkbox" value="fanta" name="drink" /> <label> fanta</label>
+
+      <label> college </label>
+      <select>
+        <option value="">select college</option>
+        <option value="golden gate">golden gate</option>
+        <option value="times">times</option>
+      </select>
+
+      <textarea rows="3" cols="3"> message</textarea>
+
+      <button type="submit">sign in</button>
+    </form>
+  </body>
+</html>
